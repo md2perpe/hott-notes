@@ -17,7 +17,7 @@ jobs:
       run: sudo apt-get install texlive texlive-latex-extra lmodern latexmk
     - name: Run make
       run: make
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v4
       with:
         name: pdfs
         path: "**/*.pdf"
