@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ cmu-2013-fall ]
   schedule:
-  - cron: "0 0 7 * *"
+    - cron: "0 0 21 * *"
 
 jobs:
   build:
